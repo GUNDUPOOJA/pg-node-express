@@ -8,12 +8,17 @@ app.get('/', (req, res) => {
 })
 // requests the about page
 app.get('/about', (req, res) => {
-  res.send("about response")
+  res.send("This is the about page")
 })
 
 // requests the contact page
 app.get('/contact', (req, res) => {
-  res.send("contact response")
+  res.send("This is the contact page")
+})
+
+// requests the contact page
+app.get('/help', (req, res) => {
+  res.send("You have requested the help page")
 })
 
 // requests the help page
