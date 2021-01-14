@@ -4,7 +4,7 @@
   "description": "Repo to build an app using Express and publish it with Heroku",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GUNDUPOOJA/pg-node-express/issues"
   },
-  "homepage": "https://github.com/GUNDUPOOJA/pg-node-express#readme"
+  "homepage": "https://github.com/GUNDUPOOJA/pg-node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
