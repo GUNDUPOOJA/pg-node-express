@@ -1,0 +1,23 @@
+{
+  "name": "pg-node-express",
+  "version": "1.0.0",
+  "description": "Repo to build an app using Express and publish it with Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUNDUPOOJA/pg-node-express.git"
+  },
+  "keywords": [
+    "heroku",
+    "example"
+  ],
+  "author": "pooja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GUNDUPOOJA/pg-node-express/issues"
+  },
+  "homepage": "https://github.com/GUNDUPOOJA/pg-node-express#readme"
+}
