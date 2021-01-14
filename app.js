@@ -2,18 +2,21 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
+// displays the message 
 app.get('/', (req, res) => {
   res.send("Hello World from pooja's app!")
 })
-
+// requests the about page
 app.get('/about', (req, res) => {
   res.send("about response")
 })
 
+// requests the contact page
 app.get('/contact', (req, res) => {
   res.send("contact response")
 })
 
+// requests the help page
 app.get('/help/:id', (req, res) => {
   res.send(`help response for ${req.params.id}`)
 })
